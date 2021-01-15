@@ -1,0 +1,9 @@
+spring:
+  curator:
+    connectionString: localhost:2181
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: gateway

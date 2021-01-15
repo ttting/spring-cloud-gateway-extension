@@ -1,0 +1,15 @@
+[
+  {
+    "id": "DEMO_API_ROUTE",
+    "order": 1,
+    "predicates": [
+      {
+        "args": {
+          "0": "/api/**"
+        },
+        "name": "Path"
+      }
+    ],
+    "uri": "http://yunyingapi-dev.huatu.com"
+  }
+]
